@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Proof Section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .text {
+            width: 42%;
+        }
+
+        .firstflex {
+            display: flex;
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            justify-content: space-between;
+            font-family: 'Spartan', sans-serif;
+            align-items: center;
+        }
+
+        .rating {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+
+        .review {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0 10px;
+            background-color: hsl(300, 24%, 96%);
+            border-radius: 10px;
+            margin-right: 100px;
+            width: 400px;
+        }
+
+        .reportguru {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0 10px;
+            margin-top: 20px;
+            background-color: hsl(300, 24%, 96%);
+            border-radius: 10px;
+            width: 400px;
+            margin-right: 50px;
+        }
+
+        .besttech {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0 10px;
+            margin-top: 20px;
+            background-color: hsl(300, 24%, 96%);
+            border-radius: 10px;
+            width: 400px;
+        }
+
+        span {
+            margin-right: 23px;
+        }
+
+        .coltenreview {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            align-items: center;
+        }
+
+        .coltenbox {
+            width: 390px;
+            padding: 30px;
+            background-color: hsl(300, 43%, 22%);
+            border-radius: 10px;
+        }
+
+        .irenereview {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            align-items: center;
+        }
+
+        .irenebox {
+            width: 390px;
+            padding: 30px;
+            background-color: hsl(300, 43%, 22%);
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: -20px;
+        }
+
+        .annereview {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            align-items: center;
+        }
+
+        .annebox {
+            width: 390px;
+            padding: 30px;
+            background-color: hsl(300, 43%, 22%);
+            border-radius: 10px;
+            margin-top: 40px;
+            margin-bottom: -40px;
+        }
+
+        .reviewpanel {
+            display: flex;
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            margin-top: 60px;
+            gap: 20px;
+            font-family: 'Spartan', sans-serif;
+        }
+
+        main {
+            margin-top: 150px;
+        }
+
+        h5 {
+            margin-bottom: -10px;
+            color: hsl(0, 0%, 100%);
+        }
+
+        .rounded {
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+        }
+        h1 {
+            font-weight: 900;
+            color: hsl(300, 43%, 22%);
+            font-size: 50px;
+            margin-bottom: 0;
+            line-height: 50px;
+        }
+        .pheading {
+            font-size: 15px;
+            color: hsl(303, 10%, 53%);
+            width: 100%;
+            line-height: 25px;
+        }
+        .preview {
+            font-size: 15px;
+            font-weight: 400;
+            color: hsl(0, 0%, 100%);
+            line-height: 25px;
+        }
+        .prating {
+            font-size: 15px;
+            font-weight: 900;
+            color: hsl(300, 43%, 22%);
+        }
+        .nameverified {
+            margin-right: 10px;
+        }
+        .pverified {
+            color: hsl(333, 80%, 67%);
+        }
+        @media (max-width: 800px) {
+            .firstflex {
+                flex-direction: column;
+                text-align: center;
+            }
+            .text {
+            width: 100%;
+        }
+        .rating {
+            width: 100%;
+        }
+        .review {
+            width: 100%;
+           
+        }
+        .reportguru, .besttech, .review {
+            flex-direction: column;
+            margin-right: 0;
+            width: 100%;
+            padding-top: 16px;
+        }
+        .reviewpanel {
+            flex-direction: column;
+        }
+        .coltenbox, .irenebox, .annebox {
+            width: 100%;
+        }
+        h1 {
+            font-size: 35px;
+            line-height: normal;
+        }
+        .text {
+            margin-bottom: 30px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="firstflex">
+            <div class="text">
+                <h1>10,000+ of our users love our products.</h1>
+                <p class="pheading">We only provide great products combined with excellent customer service. See what our satisfied
+                    customers are saying about our services.</p>
+            </div>
+            <div class="rating">
+                <div class="review">
+                    <span>
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                    </span>
+                    <p class="prating">Rated 5 Stars in Reviews</p>
+                </div>
+                <div class="reportguru">
+                    <span>
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                    </span>
+                    <p class="prating">Rated 5 Stars in Report Guru</p>
+                </div>
+                <div class="besttech">
+                    <span>
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                        <img src="images/icon-star.svg" alt="star">
+                    </span>
+                    <p class="prating">Rated 5 Stars in BestTech</p>
+                </div>
+            </div>
+        </div>
+        <div class="reviewpanel">
+            <div class="coltenbox">
+                <div class="coltenreview">
+                    <img class="rounded" src="images/image-colton.jpg" alt="colton">
+                    <div class="nameverified">
+                        <h5>Colton Smith</h5>
+                            <p class="pverified">Verified Buyer</p>
+                    </div>
+                </div>
+                <p class="preview">"We needed the same printde design as the one we had ordered prior. Not only did they find the
+                    original order, but we also received it in time. Excellent!"</p>
+            </div>
+            <div class="irenebox">
+                <div class="irenereview">
+                    <img class="rounded" src="images/image-irene.jpg" alt="irene">
+                    <div class="nameverified">
+                        <h5>Irene Roberts</h5>
+                            <p class="pverified">Verified Buyer</p>
+                    </div>
+                </div>
+                <p class="preview">"Customer service is always excellent and very quick turn around. Completely delighted with the
+                    simplicity of the purchase and the speed of delivery."</p>
+            </div>
+            <div class="annebox">
+                <div class="annereview">
+                    <img class="rounded" src="images/image-anne.jpg" alt="anne">
+                    <div class="nameverified">
+                        <h5>Anne Wallace</h5>
+                            <p class="pverified">Verified Buyer</p>
+                    </div>
+                </div>
+                <p class="preview">"Put an order with this company and can only praise them for the very high standard. Will definitely
+                    use them again and recommend them to everyone!"</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
